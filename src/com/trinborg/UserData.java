@@ -113,7 +113,7 @@ public class UserData {
                 collectLandingFrequency();
             }
         } catch (InputMismatchException e) {
-            System.out.println("Exception: " + e.toString() + "\nInput is not valid. Please provide a double");
+            System.out.println("Exception: " + e.toString() + "\nInput is not valid. Please provide a double:");
             scan.nextLine();
             collectLandingFrequency();
         }
@@ -134,7 +134,7 @@ public class UserData {
                 collectDepartureFrequency();
             }
         } catch (InputMismatchException e) {
-            System.out.println("Exception: " + e.toString() + "\nInput is not valid. Please provide a double");
+            System.out.println("Exception: " + e.toString() + "\nInput is not valid. Please provide a double:");
             scan.nextLine();
             collectDepartureFrequency();
         }
